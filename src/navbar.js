@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className="relative">
       {/* Navbar */}
       <div className="bg-[#1e1b4b] border-2 border-[#1E2A5E] w-[100%] h-[93px] flex shadow-lg">
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center z-50">
+        <div className="w-full mx-auto sm:container md:container px-4 py-3 flex justify-between items-center z-50">
           <div className="flex items-center space-x-2">
             <Link className="flex"  to={"/"}>
             <img src={logo} alt="SkatLab Logo" className="h-24 w-24 z-50" />
